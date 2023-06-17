@@ -1,39 +1,47 @@
-.App {
-  text-align: center;
+.black {
+  border-radius: 70%;
+  border: solid black 0;
+  width: 400px;
+  height: 400px;
+  margin: 1rem 1rem 1rem 2rem;
+  background-color: black;
+  font-size: 35px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.green {
+  border-radius: 70%;
+  border: solid green 0;
+  width: 400px;
+  height: 400px;
+  margin: 1rem 1rem 1rem 1.5rem;
+  background-color: green;
+  font-size: 35px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.goldenrod {
+  border-radius: 70%;
+  border: solid goldenrod 0;
+  width: 400px;
+  height: 400px;
+  margin: 1rem 1rem 1rem 1.5rem;
+  background-color: goldenrod;
+  font-size: 35px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.red {
+  border-radius: 70%;
+  border: solid red 0;
+  width: 400px;
+  height: 400px;
+  margin: 1rem 1rem 1rem 1.5rem;
+  background-color: red;
+  font-size: 35px;
 }
-
-.App-link {
-  color: #61dafb;
+h1 {
+  margin: 1rem 1rem 1rem 2rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.reset {
+  font-size: 25px; 
+  margin: 2rem 0 0 12.2rem;
+  background-color: cyan;
+  border: solid purple 1px;
+  color: purple;
+  text-shadow: black 0px 0.5px 2px;
 }
- 
